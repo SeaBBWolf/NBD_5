@@ -1,0 +1,24 @@
+1
+a) curl -i --request PUT http://localhost:8098/buckets/s17159/keys/key11 -H "Content-Type: application/json" -d "{'name': 'Vladimir Smolin', 'nationality': 'USA', 'age': 45, 'Salary': 3500.24}"
+b) curl -i --request PUT http://localhost:8098/buckets/s17159/keys/key12 -H "Content-Type: application/json" -d "{'name': 'Danil Dovgii', 'nationality': 'Ukraine', 'age': 17, 'Studies year':3.5}"
+c) curl -i --request PUT http://localhost:8098/buckets/s17159/keys/key13 -H "Content-Type: application/json" -d "{'name': 'Maciej Salak', 'nationality': 'Poland', 'age': 18, 'Salary': 4000.50}"
+d) curl -i --request PUT http://localhost:8098/buckets/s17159/keys/key14 -H "Content-Type: application/json" -d "{'name': 'Sergey Krokov', 'nationality': 'Russian', 'age': 45, 'Salary': 25.50}"
+e) curl -i --request PUT http://localhost:8098/buckets/s17159/keys/key15 -H "Content-Type: application/json" -d "{'name': 'Viktoria Sobeiska', 'nationality': 'Poland', 'age': 31, 'Salary': 4500}"
+
+2 curl -i http://localhost:8098/buckets/s17159/keys/key11
+
+3 curl -i --request PUT http://localhost:8098/buckets/s17159/keys/key11 -H "Content-Type: application/json" -d "{'name': 'Vladimir Smolin', 'nationality': 'USA', 'age': 45, 'Salary': 3500.24, 'Family status': 'Single'}"
+
+4 curl -i --request PUT http://localhost:8098/buckets/s17159/keys/key12 -H "Content-Type: application/json" -d "{'name': 'Danil Dovgii', 'nationality': 'Ukraine', 'age': 17}"
+
+5 curl -i --request PUT http://localhost:8098/buckets/s17159/keys/key13 -H "Content-Type: application/json" -d "{'name': 'Jakub Holodny', 'nationality': 'German', 'age': 19, 'Salary': 7000}"
+
+6 curl -i --request DELETE http://localhost:8098/buckets/s17159/keys/key15
+
+7 curl -i http://localhost:8098/buckets/s17159/keys/key15
+
+8 curl -i --request POST http://localhost:8098/buckets/s17159/keys -H "Content-Type: application/json" -d "{'name': 'Jason Brody'}"
+
+9 curl -i http://localhost:8098/buckets/s17159/keys/Dx8F9SWU7J7G3edzLkNtUS1sB0u
+
+10 curl -i --request DELETE http://localhost:8098/buckets/s17159/keys/Dx8F9SWU7J7G3edzLkNtUS1sB0u

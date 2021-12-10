@@ -1,0 +1,113 @@
+1
+a)HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:33:56 GMT
+Content-Type: application/json
+Content-Length: 0
+
+b)HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:35:11 GMT
+Content-Type: application/json
+Content-Length: 0
+
+c)HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:35:50 GMT
+Content-Type: application/json
+Content-Length: 0
+
+d)HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:36:29 GMT
+Content-Type: application/json
+Content-Length: 0
+
+e)HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:37:18 GMT
+Content-Type: application/json
+Content-Length: 0
+
+2 HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvp+xW7iJgWGOYwZTImMeK0MLt8ZtviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s17159>; rel="up"
+Last-Modified: Fri, 10 Dec 2021 17:33:56 GMT
+ETag: "4rPDC1b4Jv378F57iGFxIs"
+Date: Fri, 10 Dec 2021 17:38:01 GMT
+Content-Type: application/json
+Content-Length: 79
+
+{'name': 'Vladimir Smolin', 'nationality': 'USA', 'age': 45, 'Salary': 3500.24}
+
+3 HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:38:54 GMT
+Content-Type: application/json
+Content-Length: 0
+
+4 HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:39:31 GMT
+Content-Type: application/json
+Content-Length: 0
+
+5 HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:40:22 GMT
+Content-Type: application/json
+Content-Length: 0
+
+6 HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:40:53 GMT
+Content-Type: application/json
+Content-Length: 0
+
+7 HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:41:54 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found
+
+8 HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s17159/keys/Dx8F9SWU7J7G3edzLkNtUS1sB0u
+Date: Fri, 10 Dec 2021 17:43:35 GMT
+Content-Type: application/json
+Content-Length: 0
+
+9 HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvp+xfe95BobDgRlMiYx5rAzHeTVu82UBAA==
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s17159>; rel="up"
+Last-Modified: Fri, 10 Dec 2021 17:43:35 GMT
+ETag: "35zyN7bb5p2PU4dUJqKRc7"
+Date: Fri, 10 Dec 2021 17:45:05 GMT
+Content-Type: application/json
+Content-Length: 23
+
+{'name': 'Jason Brody'}
+
+10 curl -i --request DELETE http://localhost:8098/buckets/s17159/keys/Dx8F9SWU7J7G3edzLkNtUS1sB0u
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 10 Dec 2021 17:45:55 GMT
+Content-Type: application/json
+Content-Length: 0
